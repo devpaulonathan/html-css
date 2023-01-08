@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        #prin{
+            display: inline;
+        }
+              
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.452);
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+                       
+        }
+          
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px; 
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+            text-align: right;
+            padding-right: 10px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1 id="prin">Meu site</h1>
+        
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos"> 
+            <p>Esporte politica Tecnologia</p>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brazil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, voluptas quibusdam. Iure culpa, suscipit odio deserunt quaerat sit distinctio rerum excepturi dolores provident omnis aperiam, nostrum expedita eum, unde praesentium? </p>
+                <aside>
+                    <p>Artigo escrito por paulo Nathan</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Paulo Nathan</p>
+
+    </footer>
+    
+</body>
+</html>
