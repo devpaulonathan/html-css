@@ -27,6 +27,15 @@
         td{
             padding-right: 15px;
         }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            background-color: darkgray;
+            padding: 10px;
+        }
+         tbody tr:nth-child(2n){
+            background-color: lightgray;
+         }
 
     </style>
 </head>
@@ -43,10 +52,11 @@
                 tr, td, th
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>           
 
         </thead>
@@ -97,7 +107,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num">0000</td>
             </tr>
 
